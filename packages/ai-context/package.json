@@ -1,0 +1,20 @@
+{
+    "name": "@tangent/ai-context",
+    "version": "0.0.1",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc -w",
+        "lint": "eslint src --ext .ts"
+    },
+    "dependencies": {
+        "@tangent/shared-types": "workspace:*",
+        "@tangent/conversation-engine": "workspace:*",
+        "@tangent/event-bus": "workspace:*",
+        "@tangent/llm": "workspace:*"
+    },
+    "devDependencies": {
+        "typescript": "^5.3.3"
+    }
+}

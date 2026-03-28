@@ -1,0 +1,17 @@
+{
+    "name": "@tangent/persistence",
+    "version": "0.0.1",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc -w",
+        "lint": "eslint src --ext .ts"
+    },
+    "dependencies": {
+        "@tangent/shared-types": "workspace:*"
+    },
+    "devDependencies": {
+        "typescript": "^5.3.3"
+    }
+}

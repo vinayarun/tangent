@@ -1,0 +1,55 @@
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+.next/
+out/
+**/dist/
+**/build/
+**/target/
+src-tauri/target/
+
+# Package manager files
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Logs and coverage
+logs
+*.log
+npm-debug.log*
+coverage/
+
+# Testing
+/__snapshots__/
+
+# Typescript
+*.tsbuildinfo
